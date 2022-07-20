@@ -1,0 +1,8 @@
+name: template-wasm-rs
+jobs:
+  test:
+    steps:
+      - uri: fs/build
+        method: computeFibonacci
+        args:
+          n: 8
